@@ -1,0 +1,22 @@
+{
+    "name": "noukentosh/phpstatic",
+    "description": "Simple PHP Static Site Generator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "NoukenTosh",
+            "email": "noukentosh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/finder": "^5.2@dev",
+        "symfony/console": "^5.2@dev",
+        "league/plates": "^4.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPStatic\\": "./src"
+        }
+    }
+}
